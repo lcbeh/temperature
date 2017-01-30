@@ -1,0 +1,79 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Low-usage {
+  color: green;
+}
+
+.Medium-usage {
+  color: black;
+}
+
+.High-usage {
+  color: red;
+}
+
+.outdoor-main {
+  text-align: center;
+}
+
+.container {
+  background-color: #B0DACC;
+  padding: 3% 0;
+}
+
+.indoor {
+  background-color: rgba(0, 0, 0, 0.08);
+  border: 2px solid #FDE3A7;
+  border-radius: 20px;
+  text-align: center;
+  width: 22%;
+  float: left;
+  margin-top: 14.3%;
+}
+
+.outdoor {
+  float: left;
+  width: 75%;
+}
+
+.forecast {
+  text-align: center;
+  background-color: yellow;
+
+}
+
+.forecast-day {
+  width: 20%;
+  float: left;
+  display: block;
+}
+
+#temperature {
+  font-size: 2em;
+}
+
+#outdoor-temp {
+  font-size: 4em;
+}
+
+#outdoor-temp-des {
+  font-size: 0.3em;
+  margin-top: 1px;
+}
+
+.owf {
+  margin: 0;
+  margin-top: 30%;
+}
+
+.temp {
+  font-weight: bold;
+}
+
+button {
+  background-color: #EFF4E4;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+}

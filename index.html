@@ -1,0 +1,64 @@
+<!DOCtype html>
+<html>
+  <head>
+    <title>Thermostat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/owfont-regular.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body class="container">
+      <section class="outdoor">
+        <div class="outdoor-main">
+          <p id="outdoor-temp"></p>
+          <h2>London</h2>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+            <p id="weather7" class="owf owf-3x"></p>
+            <p id="list7"></p>
+            <p id="temp7" class="temp"></p>
+          </div>
+          <div class="forecast-day">
+            <p id="weather14" class="owf owf-3x"></p>
+            <p id="list14"></p>
+            <p id="temp14" class="temp"></p>
+          </div>
+          <div class="forecast-day">
+            <p id="weather21" class="owf owf-3x"></p>
+            <p id="list21"></p>
+            <p id="temp21" class="temp"></p>
+          </div>
+          <div class="forecast-day">
+            <p id="weather28" class="owf owf-3x"></p>
+            <p id="list28"></p>
+            <p id="temp28" class="temp"></p>
+          </div>
+          <div class="forecast-day">
+            <p id="weather35" class="owf owf-3x"></p>
+            <p id="list35"></p>
+            <p id="temp35" class="temp"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="indoor">
+        <h3>Indoor Temperature</h3>
+        <p id="temperature">20&#8451;</p>
+        <button id="temp-down">-</button>
+        <button id="temp-up">+</button>
+        <button id="reset">Reset</button>
+        <p>Power Saving Mode: <span id="power-saving-status">On</span></p>
+        <button id="on-power-save">PSM On</button>
+        <button id="off-power-save">PSM Off</button>
+        <p>Energy Usage: <span id="energy-usage">Medium-usage</span></p>
+      </section>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="src/interface.js"></script>
+    <script src="src/thermostat.js"></script>
+  </body>
+</html>
