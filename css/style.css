@@ -1,5 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
+
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ee9ca7 , #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .Low-usage {
@@ -19,18 +24,17 @@ body {
 }
 
 .container {
-  background-color: #B0DACC;
   padding: 3% 0;
 }
 
 .indoor {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.15);
   border: 2px solid #FDE3A7;
   border-radius: 20px;
   text-align: center;
   width: 22%;
   float: left;
-  margin-top: 14.3%;
+  margin-top: 16%;
 }
 
 .outdoor {
@@ -55,7 +59,8 @@ body {
 }
 
 #outdoor-temp {
-  font-size: 4em;
+  font-size: 5em;
+  color:#fff;
 }
 
 #outdoor-temp-des {

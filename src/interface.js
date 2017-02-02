@@ -40,6 +40,7 @@ $(document).ready(function () {
     $.get('http://api.openweathermap.org/data/2.5/forecast?q=London&appid=f5b07fabefe925c02fbd0a986d0f9541&units=metric', function(data) {
       var today = data.list[day].dt_txt
       var formattedDay = today.slice(8,10) + '/' + today.slice(5,7)
+      console.log(data.list[day]);
       $('#weather' + day).addClass("owf-" + data.list[day].weather[0].id)
       $('#list' + day).text(formattedDay)
       $('#temp' + day).text(data.list[day].main.temp + degCelcius);
