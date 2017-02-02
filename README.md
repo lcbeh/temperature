@@ -6,6 +6,7 @@ A practice project to display 5 days weather forecast. User can also interact wi
 
 ## Installation
 
-In the terminal, run:
-1. git clone git@github.com:lcbeh/temperature.git
-2. open index.html
+In the terminal, run:  
+```git clone git@github.com:lcbeh/temperature.git```  
+```cd temperature```  
+```open index.html```
